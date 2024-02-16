@@ -2,3 +2,5 @@ streamlit
 PyPDF2
 google.generativeai
 python-dotenv
+
+#create a .env file in the ATS_Gemini folder. .env file should contain the Google Gemini Api. Example: GOOGLE_API_KEY="AIzaSyABta_44UKeLGHwkLCi30gDA-C42m4t-j"
