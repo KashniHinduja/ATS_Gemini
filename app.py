@@ -35,8 +35,15 @@ the missing keywords with high accuracy
 resume:{text}
 description:{jd}
 
-I want the response in one single string having the structure
-{{"JD Match":"%","MissingKeywords:[]","Profile Summary":""}}
+I want the response in three strings separated by a new line space. I only want these 3 responses and nothing else no matter how many times submit is pressed. stick to this structure and format at any cost. Dont change
+your response everytime the submit button is clicked. Just stick to the initial response for the same inputs.
+DO NOT DEVIATE FROM THIS STRUCTURE. FOLLOW IT STRICTLY NO MATTER WHAT. FOLLOW THE BELOW STRUCTURE
+
+JD Match:"%",         
+
+Missing Keywords:[],  
+
+Profile Summary:""   
 """
 
 ## streamlit app
